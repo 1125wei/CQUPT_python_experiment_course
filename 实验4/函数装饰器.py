@@ -5,7 +5,7 @@ def debug(func):
         # 打印进入函数的调试信息，包括函数的名称
         return func()
 
-    return wrapper()  # 返回wrapper函数的执行结果，而不是wrapper函数本身
+    return wrapper  # 返回wrapper函数，而不是wrapper函数的执行结果
 
 
 @debug
