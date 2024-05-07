@@ -15,7 +15,7 @@ imageio.imwrite("图片裁剪.jpg", picture_jpg[50:130, 100:240])
 """——————————————————————————绘制图片——————————————————————————————"""
 plt.figure()
 plt.subplot(2, 2, 1)
-picture_jpg1 = mpimg.imread(os.getcwd() + "实验6/图片.jpg")
+picture_jpg1 = mpimg.imread(os.getcwd() + "\\图片.jpg")
 plt.imshow(picture_jpg1)
 plt.axis("off")
 plt.subplot(2, 2, 2)
