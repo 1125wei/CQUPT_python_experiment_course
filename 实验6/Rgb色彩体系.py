@@ -1,3 +1,4 @@
+import time
 import turtle
 
 n = 100
@@ -42,3 +43,4 @@ turtle.forward(int(n * 0.6))
 turtle.right(90)
 turtle.end_fill()
 turtle.done
+time.sleep(5)

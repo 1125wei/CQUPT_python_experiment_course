@@ -1,3 +1,4 @@
+import time
 import turtle
 turtle.left(45)
 turtle.fd(150)
